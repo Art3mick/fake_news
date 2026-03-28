@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.jupyterlab-settings/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Data & Models
+data/
+models/
+lib/
+scripts/
+fakenews/
+*.csv
+*.keras
+*.pkl
+*.h5
+*.joblib
+*.pt
+*.pth
+
+# Large files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# OS
+.DS_Store
+Thumbs.db
+*.lnk
+
+# Environment
+.env
+.env.local
+*.config
+
+# Logs & Cache
+*.log
+logs/
+*.cache
+.cache/
+.pytest_cache/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+*.bak
+
+# macOS
+.AppleDouble
+.LSOverride
+.DS_Store
+
+# Windows
+desktop.ini
+$RECYCLE.BIN/
+
+# Django (if applicable)
+*.sqlite3
+db.sqlite3
+
+# TensorFlow/Keras
+.keras/
+
+# Node (if using any JS tools)
+node_modules/
+package-lock.json
